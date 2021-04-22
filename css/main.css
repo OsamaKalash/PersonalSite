@@ -7,16 +7,16 @@
 body{
     margin:0 0 100px 0;
     padding: 0;
-    background-color: #cc002c;
+    background-color: #523634;
 }
 
 nav{
-    background-color:#CBCDCB;
+    background-color:#301b28;
     margin-bottom: 30px;
 }
 
 nav a{
-    color:#1B2E3C;
+    color:#ddbc95;
     font-weight: bolder;
     padding: 0 15px 0 15px;
     font-size:18px;
@@ -28,7 +28,7 @@ nav a{
 
 .dropdown:hover > .dropdown-menu{
     display: block;
-    background-color: #CBCDCB;
+    background-color: #301b28;
     border-radius: 10px;
     width:320px;
 }
@@ -38,14 +38,14 @@ nav a{
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     font-weight: bold;
-    color: #E9DDD4;
+    color: #ddbc95;
 }
 
 .jumbotron {
     min-height: 400px;
     height:auto;
     width: 100%;
-    background-color: #E9DDD4;
+    background-color: #b38867;
     border-radius: 20px;
     font-size: 20px;
 }
@@ -53,13 +53,14 @@ nav a{
 .jumbotron h2{
     padding-top:0;
     margin-top: 0;
-    color:#1B2E3C;
+    color:#301b28;
 }
 
 .jumbotron p{
     max-width:600px;
     height:auto;
-    color:#1B2E3C;
+    color:#301b28;
+    font-size:25px;
 }
 
 input[type=text], textarea{
@@ -71,21 +72,23 @@ input[type=text], textarea{
     margin-bottom: 16px;
     resize: vertical;
     padding:12px;
+
 }
 .contact_form{
     padding: 30px;
     border-radius: 5px;
-    background-color: #E9DDD4;
+    background-color: #b38867;
     max-width: 700px;
     width:auto;
     margin:0 0 0 0;
+    font-size:20px;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #CBCDCB;
+    background-color: #301b28;
     height: 60px;
     line-height: 60px;
     text-align: center;
@@ -93,7 +96,7 @@ input[type=text], textarea{
 }
 
 .footer span{
-    color:#1B2E3C;
+    color:#ebdcb2;
 }
 
 .card{
@@ -110,10 +113,12 @@ input[type=text], textarea{
 
 .card .card-header{
     font-size: 2rem;
-    background-color: #dcc9bc;
+    background-color: #b38867;
+    color:#301b28;
 }
 
 .card .card-body{
     font-size: 1.5rem;
-    background-color: #E9DDD4;
+    background-color: #ebdcb2;
+    color: #301b28;
 }
