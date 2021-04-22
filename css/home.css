@@ -13,8 +13,8 @@ body{
 nav{
     background-color:#CBCDCB;
 }
-
-nav a{
+nav
+a{
     color:#1B2E3C;
     font-weight: bolder;
     padding: 0 15px 0 15px;
@@ -31,6 +31,7 @@ nav a{
     border-radius: 10px;
     width:320px;
 }
+
 #hometitle{
     margin-left: 1em;
     margin-bottom: 0.5em;
@@ -46,7 +47,6 @@ nav a{
     background-color: #E9DDD4;
     border-radius: 20px;
 }
-
 
 .jumbotron h2{
     padding-top:0;
