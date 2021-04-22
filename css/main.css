@@ -1,0 +1,119 @@
+/*DEVELOPER: Osama Kalash, IS117-004, Spring 2021*/
+*{
+    float:none;
+    clear:none;
+}
+
+body{
+    margin:0 0 100px 0;
+    padding: 0;
+    background-color: #cc002c;
+}
+
+nav{
+    background-color:#CBCDCB;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color:#1B2E3C;
+    font-weight: bolder;
+    padding: 0 15px 0 15px;
+    font-size:18px;
+}
+
+.dropdown-menu{
+    display:none;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    background-color: #CBCDCB;
+    border-radius: 10px;
+    width:320px;
+}
+
+#pagetitle{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: #E9DDD4;
+}
+
+.jumbotron {
+    min-height: 400px;
+    height:auto;
+    width: 100%;
+    background-color: #E9DDD4;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.jumbotron h2{
+    padding-top:0;
+    margin-top: 0;
+    color:#1B2E3C;
+}
+
+.jumbotron p{
+    max-width:600px;
+    height:auto;
+    color:#1B2E3C;
+}
+
+input[type=text], textarea{
+    width:100%;
+    border:1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    padding:12px;
+}
+.contact_form{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #E9DDD4;
+    max-width: 700px;
+    width:auto;
+    margin:0 0 0 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #CBCDCB;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer span{
+    color:#1B2E3C;
+}
+
+.card{
+    width: 350px;
+    height: auto;
+}
+
+.card-deck{
+    display: flex;
+    margin: 0;
+    min-width:100%;
+    height:auto;
+}
+
+.card .card-header{
+    font-size: 2rem;
+    background-color: #dcc9bc;
+}
+
+.card .card-body{
+    font-size: 1.5rem;
+    background-color: #E9DDD4;
+}

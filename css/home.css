@@ -1,0 +1,84 @@
+/*DEVELOPER: Osama Kalash, IS117-004, Spring 2021*/
+*{
+    float:none;
+    clear:none;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    background-color: #cc002c;
+}
+
+nav{
+    background-color:#CBCDCB;
+}
+
+nav a{
+    color:#1B2E3C;
+    font-weight: bolder;
+    padding: 0 15px 0 15px;
+    font-size:18px;
+}
+
+.dropdown-menu{
+    display:none;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    background-color: #CBCDCB;
+    border-radius: 10px;
+    width:320px;
+}
+#hometitle{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: #E9DDD4;
+}
+
+.jumbotron {
+    min-height: 400px;
+    height:auto;
+    width: 100%;
+    background-color: #E9DDD4;
+    border-radius: 20px;
+}
+
+
+.jumbotron h2{
+    padding-top:0;
+    margin-top: 0;
+    color:#1B2E3C;
+}
+
+.jumbotron p{
+    max-width:600px;
+    height:auto;
+    color:#1B2E3C;
+    font-size: 20px;
+}
+
+.jumbotron img{
+    float: right;
+    margin-right: 1em;
+    height:auto;
+    padding-left: 1em;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #CBCDCB;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer span{
+    color:#1B2E3C;
+}
